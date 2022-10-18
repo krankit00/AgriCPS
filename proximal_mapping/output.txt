@@ -1,0 +1,134 @@
+PointCloud loaded with 70628 points
+Maximum Height of Biomass Recorded 3.28 meters
+Sampled points from slicing:  2461
+number of estimated clusters : 23
+Ignoring Noise
+Cluster No:  1
+/home/doer/.local/lib/python3.8/site-packages/shapely/ops.py:42: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  source = iter(source)
+/home/doer/.local/lib/python3.8/site-packages/alphashape/optimizealpha.py:41: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  return all([polygon.intersects(point) for point in points])
+Alpha Optimized:  3.844027893709709
+Boundary Points:  54
+Area of the cluster:  2.0444587080598713
+Cluster No:  2
+Alpha Optimized:  1.2670811429210167
+Boundary Points:  100
+Area of the cluster:  16.619307791398494
+Cluster No:  3
+WARNING - 2022-10-11 21:40:17,704 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  14
+Area of the cluster:  0.4651903842437615
+Cluster No:  4
+WARNING - 2022-10-11 21:42:23,185 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  12
+Area of the cluster:  0.7985969112636414
+Cluster No:  5
+WARNING - 2022-10-11 21:44:00,049 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  14
+Area of the cluster:  0.3262612317513449
+Cluster No:  6
+WARNING - 2022-10-11 21:47:12,812 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  13
+Area of the cluster:  0.8070476840309292
+Cluster No:  7
+Alpha Optimized:  3.6803140294486947
+Boundary Points:  27
+Area of the cluster:  0.5787432669214762
+Cluster No:  8
+WARNING - 2022-10-11 21:52:40,943 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  15
+Area of the cluster:  3.0420597786739876
+Cluster No:  9
+Alpha Optimized:  2.798388324261613
+Boundary Points:  62
+Area of the cluster:  0.6092300099310354
+Cluster No:  10
+WARNING - 2022-10-11 21:55:42,011 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  11
+Area of the cluster:  1.115055570273098
+Cluster No:  11
+Alpha Optimized:  1.7844407574747116
+Boundary Points:  89
+Area of the cluster:  3.3303809230390273
+Cluster No:  12
+WARNING - 2022-10-11 22:00:31,780 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  18
+Area of the cluster:  1.311950056808824
+Cluster No:  13
+WARNING - 2022-10-11 22:02:36,324 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  7
+Area of the cluster:  0.8441923537302005
+Cluster No:  14
+WARNING - 2022-10-11 22:07:30,099 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  20
+Area of the cluster:  1.5945413627986318
+Cluster No:  15
+WARNING - 2022-10-11 22:10:20,965 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  15
+Area of the cluster:  0.7557909030396787
+Cluster No:  16
+WARNING - 2022-10-11 22:12:33,743 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  12
+Area of the cluster:  0.49421475036325413
+Cluster No:  17
+WARNING - 2022-10-11 22:14:55,618 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  16
+Area of the cluster:  0.7264809631933391
+Cluster No:  18
+Alpha Optimized:  2.6177468467927762
+Boundary Points:  42
+Area of the cluster:  2.3527992907363977
+Cluster No:  19
+WARNING - 2022-10-11 22:18:23,358 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  19
+Area of the cluster:  1.8994455558006509
+Cluster No:  20
+Alpha Optimized:  3.337245273543171
+Boundary Points:  65
+Area of the cluster:  0.7712852486701733
+Cluster No:  21
+WARNING - 2022-10-11 22:21:14,770 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  13
+Area of the cluster:  0.7459993991006205
+Cluster No:  22
+Alpha Optimized:  2.4311567586279414
+Boundary Points:  54
+Area of the cluster:  0.36115029975992274
+Cluster No:  23
+WARNING - 2022-10-11 22:22:18,841 - optimizealpha - maximum allowed iterations reached while optimizing the alpha parameter
+Alpha Optimized:  0.0
+Boundary Points:  12
+Area of the cluster:  0.16270671370447604
+./main.py:68: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  ax = plt.axes()
+^CTraceback (most recent call last):
+  File "./main.py", line 76, in <module>
+    main()
+  File "./main.py", line 72, in main
+    plt.show()
+  File "/usr/lib/python3/dist-packages/matplotlib/pyplot.py", line 269, in show
+    return _show(*args, **kw)
+  File "/usr/lib/python3/dist-packages/matplotlib/cbook/deprecation.py", line 413, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/matplotlib/backend_bases.py", line 3309, in show
+    cls.mainloop()
+  File "/usr/lib/python3/dist-packages/matplotlib/backends/_backend_tk.py", line 981, in mainloop
+    managers[0].window.mainloop()
+  File "/usr/lib/python3.8/tkinter/__init__.py", line 1429, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
