@@ -10,3 +10,4 @@ alpha_factor = 1.25
 # DBSCAN Params
 eps = 0.45
 min_samples = 10
+rot_angle = -3.1415

@@ -6,7 +6,7 @@ from modules.slicing import slice, plot_grid
 from modules.pcd_handler import pcd_handle
 from modules.clustering import cluster
 from modules.proximal_coverage import proximal_map_cluster
-from data.old_farm.parameters import thickness, uav_size, pcd_path, alpha_factor, eps, min_samples, operating_height
+from data.iihr_farm.parameters import thickness, uav_size, pcd_path, alpha_factor, eps, min_samples, operating_height, rot_angle
 
 isPlotting = True
 
@@ -15,7 +15,7 @@ def main():
     global path, operating_height, thickness
 
     ### Point Cloud Loaded ###
-    xyz_load = pcd_handle(pcd_path)  # Returns Numpy Array
+    xyz_load = pcd_handle(pcd_path, rot_angle)  # Returns Numpy Array
     print('PointCloud loaded with', len(xyz_load), 'points')
 
     # Respective points
